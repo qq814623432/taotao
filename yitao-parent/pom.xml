@@ -13,9 +13,9 @@
         <module>yitao-domain</module>
         <module>yitao-common</module>
         <module>yitao-mapper</module>
-        <!--<module>yitao-seller-service</module>-->
-        <!--<module>yitao-seller-interface</module>-->
-        <!--<module>yitao-seller-webapi</module>-->
+        <module>yitao-seller-service</module>
+        <module>yitao-seller-interface</module>
+        <module>yitao-seller-webapi</module>
         <!--<module>yitao-upload-interface</module>-->
         <!--<module>yitao-upload-service</module>-->
         <!--<module>yitao-upload-webapi</module>-->
@@ -51,35 +51,35 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.gerry.yitao</groupId>
+                <groupId>com.zlzlive.yitao</groupId>
                 <artifactId>yitao-domain</artifactId>
                 <version>${yitao-version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.gerry.yitao</groupId>
+                <groupId>com.zlzlive.yitao</groupId>
                 <artifactId>yitao-common</artifactId>
                 <version>${yitao-version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.gerry.yitao</groupId>
+                <groupId>com.zlzlive.yitao</groupId>
                 <artifactId>yitao-mapper</artifactId>
                 <version>${yitao-version}</version>
             </dependency>
 
 
             <dependency>
-                <groupId>com.gerry.yitao</groupId>
+                <groupId>com.zlzlive.yitao</groupId>
                 <artifactId>yitao-seller-interface</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>${yitao-version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.gerry.yitao</groupId>
-                <artifactId>yitao-upload-interface</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.zlzlive.yitao</groupId>-->
+                <!--<artifactId>yitao-upload-interface</artifactId>-->
+                <!--<version>1.0-SNAPSHOT</version>-->
+            <!--</dependency>-->
 
             <!--/////////////////////////////////////////////////-->
 

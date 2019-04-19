@@ -9,14 +9,23 @@
         <module name="yitao-common" />
         <module name="yitao-domain" />
         <module name="yitao-mapper" />
+        <module name="yitao-seller-interface" />
+        <module name="yitao-seller-service" />
+        <module name="yitao-seller-webapi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yitao-seller-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="yitao-common" options="" />
       <module name="yitao-domain" options="-parameters" />
-      <module name="yitao-mapper" options="-parameters" />
+      <module name="yitao-mapper" options="" />
+      <module name="yitao-seller-interface" options="" />
+      <module name="yitao-seller-service" options="" />
+      <module name="yitao-seller-webapi" options="" />
     </option>
   </component>
 </project>
